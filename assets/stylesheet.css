@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+}
+header h1{
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+}
+main {
+    display: flex;
+    height: 300px;
+}
+#startButton{
+    padding: 5px 20px;
+    margin:5px;
+}
+
+#gameField{
+    width: 75%;
+    background-color: green;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#characters{
+    background-color: blue;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 20px;
+}
+
+#detailsField{
+    width:25%;
+    margin: 10px;
+    background-color:green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#timeField{
+    background-color: yellow;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+#time{
+    font-size:40px;
+}

@@ -5,10 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hangman</title>
+    <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/stylesheet.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Word Guess Game</h1>
+        <button id="startButton">Start</button>
+    </header>
+    <main>
+        <section id="gameField">
+            <h1 id="characters">asdlfkj</h1>
+        </section>
+
+        <section id="detailsField">
+            <h3 id="wins">Wins: 0</h3>
+            <h3 id="losses">Losses: 0</h3>
+            <button>Reset Scores</button>
+            <section id="timeField">
+                <h1 id="time">10</h1>
+                <h3>seconds remaining</h3>
+            </section>
+        </section>
+
+    </main>
     <script src="./assets/script.js"></script>
 </body>
 </html>
