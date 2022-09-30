@@ -33,6 +33,7 @@ main {
     font-size: 40px;
     font-family:'Courier New', Courier, monospace;
     letter-spacing: 20px;
+    text-indent: 20px;
 }
 
 #detailsField{
